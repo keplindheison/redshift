@@ -1,1 +1,40 @@
-# redshift
+# Redshift
+
+Repositório destinado ao terceiro projeto do curso [Formação Engenharia de Dados: Domine Big Data!](https://www.udemy.com/course/engenheiro-de-dados/)
+
+### Sobre o projeto
+Criar uma tabela dentro do [Amazon Redshift](https://aws.amazon.com/pt/redshift/), que seja uma tabela simples e desnormalizada para um usuário final criar um Dashboard facilmente.
+
+
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+
+## Requerimentos:
+<img  aling="center"  alt="amazon-web-services"  width="40"  height="40"  src="https://img.icons8.com/color/48/amazon-web-services.png"  />
+
+## Tecnologias Usadas:
+<div  style="display: inline_block"><br>
+<img  aling="center"  alt="amazon-web-services"  width="40"  height="40"  src="https://img.icons8.com/color/48/amazon-web-services.png"  />
+<img aling="center"  alt="linux"  width="40"  height="40" src="data:image/png;base64,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" />
+</div>
+
+
+# Índice
+1. Como começar
+2. Criar cluster no redshift
+3. Criar banco de dados e tabelas
+4. Criar busket no S3
+5. Upload de Arquivos
+6. Criar credenciais
+7. Carregar dados utilizando Copy
+8. Criar tabela desmoralizada
+9. Configurar Redshift para acesso publico
+10. Conectar Google Data Studio
+11. Criar Dashboard "Ad hoc"
+
+## Como Começar
+#### Conta AWS
+É necessário que tenha uma conta [AWS](https://aws.amazon.com/).
+
+AWS é uma plataforma de serviços de computação em nuvem, que formam uma plataforma de computação na nuvem oferecida pela  [Amazon.com](http://amazon.com/). Os serviços são oferecidos em várias áreas geográficas distribuídas pelo mundo.
+
+## Criar Cluster no Redshift
